@@ -1,62 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blog on Sailor</title>
-    <link>http://sea-sailor.github.io/blog/</link>
-    <description>Recent content in Blog on Sailor</description>
+    <title>Blog on Terminal-Agent</title>
+    <link>http://terminal-agent.github.io/blog/</link>
+    <description>Recent content in Blog on Terminal-Agent</description>
     <image>
-      <url>http://sea-sailor.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://sea-sailor.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://terminal-agent.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://terminal-agent.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Dec 2024 12:00:00 +0800</lastBuildDate><atom:link href="http://sea-sailor.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 12:00:00 +0800</lastBuildDate><atom:link href="http://terminal-agent.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs</title>
-      <link>http://sea-sailor.github.io/blog/sailor2/</link>
-      <pubDate>Mon, 02 Dec 2024 12:00:00 +0800</pubDate>
-      
-      <guid>http://sea-sailor.github.io/blog/sailor2/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/2502.12982&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;REPORT&lt;/a&gt;
-&lt;a href=&#34;https://github.com/sail-sg/sailor2&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
-&lt;a href=&#34;https://huggingface.co/collections/sail/sailor2-language-models-674d7c9e6b4dbbd9a869906b&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;HUGGING FACE&lt;/a&gt;
-&lt;a href=&#34;https://huggingface.co/spaces/sail/Sailor2-20B-Chat&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;DEMO&lt;/a&gt;
-&lt;a href=&#34;https://huggingface.co/sailor2&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;COMMUNITY&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;In this blog, we introduce &lt;strong&gt;Sailor2&lt;/strong&gt;, a community-driven initiative that brings cutting-edge multilingual language models to &lt;strong&gt;South-East Asia (SEA)&lt;/strong&gt;. Our research highlights a strong demand for models in the &lt;strong&gt;8B&lt;/strong&gt; and &lt;strong&gt;20B&lt;/strong&gt; parameter range for production use, alongside a &lt;strong&gt;1B&lt;/strong&gt; model for specialized applications, such as speculative decoding and research purposes. These models, released under the &lt;strong&gt;Apache 2.0 license&lt;/strong&gt;, provide enhanced accessibility to advanced language technologies across the region.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>SailCraft: Data Toolkit for Sailor Language Models</title>
-      <link>http://sea-sailor.github.io/blog/sailcraft/</link>
+      <title>Autopilot</title>
+      <link>http://terminal-agent.github.io/blog/autopilot/</link>
       <pubDate>Wed, 01 May 2024 12:00:00 +0800</pubDate>
       
-      <guid>http://sea-sailor.github.io/blog/sailcraft/</guid>
+      <guid>http://terminal-agent.github.io/blog/autopilot/</guid>
       <description>&lt;a href=&#34;https://github.com/sail-sg/sailcraft&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Today, we are thrilled to introduce the &lt;strong&gt;SailCraft&lt;/strong&gt; data processing pipeline, a comprehensive open-source solution for large language model dataset curation. Built with meticulous attention to detail, Sailcraft represents a significant advancement in data preprocessing techniques for machine learning models.&lt;/p&gt;
-&lt;p&gt;The pipeline encompasses a sophisticated four-stage data cleaning approach:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Initial data cleaning&lt;/li&gt;
-&lt;li&gt;Near deduplication&lt;/li&gt;
-&lt;li&gt;Exact deduplication&lt;/li&gt;
-&lt;li&gt;Second-round data cleaning&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;With a particular emphasis on linguistic diversity, Sailcraft provides specialized cleaning capabilities for a wide range of languages, including Arabic, Bengali, Catalan, Spanish, Basque, French, Hindi, Portuguese, Urdu, and optimized processing for English, Indonesian, Vietnamese, Chinese, Thai, Lao, and Malay.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Sailor: Open Language Models for South-East Asia</title>
-      <link>http://sea-sailor.github.io/blog/sailor1/</link>
-      <pubDate>Wed, 01 May 2024 12:00:00 +0800</pubDate>
-      
-      <guid>http://sea-sailor.github.io/blog/sailor1/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2404.03608&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;PAPER&lt;/a&gt;
-&lt;a href=&#34;https://github.com/sail-sg/sailor-llm&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
-&lt;a href=&#34;https://huggingface.co/collections/sail/sailor-65e19a749f978976f1959825&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;HUGGING FACE&lt;/a&gt;
-&lt;a href=&#34;https://huggingface.co/spaces/sail/Sailor-14B-Chat&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;DEMO&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Sailor is a suite of Open Language Models tailored for South-East Asia (SEA), focusing on languages such as 🇮🇩Indonesian, 🇹🇭Thai, 🇻🇳Vietnamese, 🇲🇾Malay, and 🇱🇦Lao. Developed with careful data curation, Sailor models are designed to understand and generate text across the diverse linguistic landscapes of the SEA region. Built from Qwen 1.5, Sailor encompasses models of varying sizes, spanning from 0.5B to 14B versions for different requirements.&lt;/p&gt;</description>
+&lt;p&gt;TBD&lt;/p&gt;</description>
     </item>
     
   </channel>

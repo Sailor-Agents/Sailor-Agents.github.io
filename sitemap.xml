@@ -2,31 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://sea-sailor.github.io/blog/sailor2/</loc>
-    <lastmod>2024-12-02T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://sea-sailor.github.io/blog/sailcraft/</loc>
+    <loc>http://terminal-agent.github.io/blog/autopilot/</loc>
     <lastmod>2024-05-01T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://sea-sailor.github.io/blog/sailor1/</loc>
+    <loc>http://terminal-agent.github.io/blog/</loc>
     <lastmod>2024-05-01T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://sea-sailor.github.io/blog/</loc>
-    <lastmod>2024-12-02T12:00:00+08:00</lastmod>
+    <loc>http://terminal-agent.github.io/</loc>
+    <lastmod>2024-05-01T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://sea-sailor.github.io/</loc>
-    <lastmod>2024-12-02T12:00:00+08:00</lastmod>
+    <loc>http://terminal-agent.github.io/about/</loc>
   </url><url>
-    <loc>http://sea-sailor.github.io/about/</loc>
+    <loc>http://terminal-agent.github.io/categories/</loc>
   </url><url>
-    <loc>http://sea-sailor.github.io/categories/</loc>
+    <loc>http://terminal-agent.github.io/resources/</loc>
   </url><url>
-    <loc>http://sea-sailor.github.io/resources/</loc>
+    <loc>http://terminal-agent.github.io/search/</loc>
   </url><url>
-    <loc>http://sea-sailor.github.io/search/</loc>
+    <loc>http://terminal-agent.github.io/tags/</loc>
   </url><url>
-    <loc>http://sea-sailor.github.io/tags/</loc>
-  </url><url>
-    <loc>http://sea-sailor.github.io/tags/usage/</loc>
+    <loc>http://terminal-agent.github.io/tags/usage/</loc>
   </url>
 </urlset>
