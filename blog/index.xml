@@ -10,15 +10,37 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 May 2024 12:00:00 +0800</lastBuildDate><atom:link href="http://terminal-agent.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 12:00:00 +0800</lastBuildDate><atom:link href="http://terminal-agent.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Autopilot</title>
-      <link>http://terminal-agent.github.io/blog/autopilot/</link>
-      <pubDate>Wed, 01 May 2024 12:00:00 +0800</pubDate>
+      <title>Reptile: Terminal-Agent with Human-in-the-loop Learning</title>
+      <link>http://terminal-agent.github.io/blog/reptile-workflow/</link>
+      <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
-      <guid>http://terminal-agent.github.io/blog/autopilot/</guid>
-      <description>&lt;a href=&#34;https://github.com/sail-sg/sailcraft&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
-&lt;p&gt;TBD&lt;/p&gt;</description>
+      <guid>http://terminal-agent.github.io/blog/reptile-workflow/</guid>
+      <description>&lt;a href=&#34;https://github.com/Sailor-Agents/Terminal-Agents&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;We propose &lt;strong&gt;Reptile&lt;/strong&gt;, a terminal agent that operates under an extended &lt;strong&gt;REPL (Read-Execute-Print-Learn)&lt;/strong&gt; protocol, where human feedback is seamlessly integrated into the agent&amp;rsquo;s execution loop.&lt;/p&gt;
+&lt;p&gt;Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely on code evaluation, our REPL protocol emphasizes the iterative cycle of human-agent collaboration, transforming the terminal from a passive command executor into an interactive learning environment.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://hackmd.io/_uploads/SkGiD2BWWl.png&#34; alt=&#34;image&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;insights&#34;&gt;Insights&lt;/h2&gt;
+&lt;!-- **Topic**: Terminal is universal enough but Terminal-Agent is super challenging, which is a promising testbed to push the limits of agent research.  --&gt;
+&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;: Build the universal action space for the LLM, reserving specialized workflows only for high-risk operations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Terminal: LLM’s Last Tool</title>
+      <link>http://terminal-agent.github.io/blog/tty-use-tool/</link>
+      <pubDate>Wed, 15 Oct 2025 12:00:00 +0800</pubDate>
+      
+      <guid>http://terminal-agent.github.io/blog/tty-use-tool/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sail-sg/tty-use&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+&lt;a href=&#34;https://x.com/mavenlin/status/1977758827366817929&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;TWITTER&lt;/a&gt;
+&lt;a href=&#34;https://tinyurl.com/vrwcmpks%20&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;NOTION-Version&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LLM systems today are gravitating toward structured &lt;strong&gt;“tool protocols”.&lt;/strong&gt; The most prominent of these, &lt;strong&gt;MCP&lt;/strong&gt;, defines tools through JSON schemas that describe how models can interact with a computer. But here’s the quiet irony: models already know. They’ve seen countless examples of people running commands, inspecting logs, and fixing errors — all through a single interface that’s existed for half a century: the &lt;strong&gt;terminal&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-burden-of-new-protocols&#34;&gt;The burden of new protocols&lt;/h3&gt;
+&lt;p&gt;Modern tool frameworks like MCP describe every action in meticulous JSON. They are explicit, structured and heavy. To use them, an endless catalog of tool descriptions need to be maintained and explained in the system prompt.&lt;/p&gt;</description>
     </item>
     
   </channel>
