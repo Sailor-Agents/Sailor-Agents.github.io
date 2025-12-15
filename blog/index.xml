@@ -17,7 +17,8 @@
       <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
       <guid>https://terminal-agent.github.io/blog/annotation/</guid>
-      <description>&lt;a href=&#34;https://github.com/terminal-agent/reptile&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/terminal-agent/reptile&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+&lt;a href=&#34;https://github.com/terminal-agent/AnnotationGuidelines&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GUIDELINE&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1-the-need-for-a-fast-system-in-terminal-based-swe-data-collection&#34;&gt;1. The Need for a Fast System in Terminal-Based SWE Data Collection&lt;/h2&gt;
 &lt;p&gt;In terminal-based SFT data collection for software engineering (SWE) tasks, system responsiveness is a crucial determinant of both data efficiency and data quality. For annotators who are not proficient with command-line interfaces, two fundamental issues—slow typing speed and difficulty recalling commands—create significant friction in the labeling process.&lt;/p&gt;
 &lt;p&gt;First, &lt;strong&gt;the interaction cost of terminal input is inherently high&lt;/strong&gt;. Unlike graphical interfaces that offer affordances such as buttons, menus, or auto-completion, &lt;em&gt;terminals rely entirely on textual command entry&lt;/em&gt;. Each operation requires the annotator to &lt;strong&gt;recall and retype precise commands and parameters, often under the risk of syntax errors&lt;/strong&gt;. When annotators frequently make syntax or command errors due to limited terminal proficiency, the repeated cycles of editing, rerunning, and verifying become time-consuming and mentally exhausting, causing substantial inefficiency and fatigue throughout the labeling process.&lt;/p&gt;</description>
