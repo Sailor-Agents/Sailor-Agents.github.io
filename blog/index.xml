@@ -12,17 +12,30 @@
     <language>en</language>
     <lastBuildDate>Mon, 15 Dec 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://sailor-agents.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reptile: Terminal-Agent with Human-in-the-loop Learning</title>
-      <link>https://sailor-agents.github.io/blog/reptile-workflow/</link>
+      <title>On Policy Annotation: Minimal Human Edits Unlock Massive Gains in LLM Agents</title>
+      <link>https://sailor-agents.github.io/blog/annotation/</link>
       <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
-      <guid>https://sailor-agents.github.io/blog/reptile-workflow/</guid>
+      <guid>https://sailor-agents.github.io/blog/annotation/</guid>
+      <description>&lt;a href=&#34;https://github.com/Sailor-Agents/Terminal-Agents&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+&lt;h2 id=&#34;1-the-need-for-a-fast-system-in-terminal-based-swe-data-collection&#34;&gt;1. The Need for a Fast System in Terminal-Based SWE Data Collection&lt;/h2&gt;
+&lt;p&gt;In terminal-based SFT data collection for software engineering (SWE) tasks, system responsiveness is a crucial determinant of both data efficiency and data quality. For annotators who are not proficient with command-line interfaces, two fundamental issues—slow typing speed and difficulty recalling commands—create significant friction in the labeling process.&lt;/p&gt;
+&lt;p&gt;First, &lt;strong&gt;the interaction cost of terminal input is inherently high&lt;/strong&gt;. Unlike graphical interfaces that offer affordances such as buttons, menus, or auto-completion, &lt;em&gt;terminals rely entirely on textual command entry&lt;/em&gt;. Each operation requires the annotator to &lt;strong&gt;recall and retype precise commands and parameters, often under the risk of syntax errors&lt;/strong&gt;. When annotators frequently make syntax or command errors due to limited terminal proficiency, the repeated cycles of editing, rerunning, and verifying become time-consuming and mentally exhausting, causing substantial inefficiency and fatigue throughout the labeling process.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reptile: Terminal-Agent with Human-in-the-loop Learning</title>
+      <link>https://sailor-agents.github.io/blog/workflow/</link>
+      <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
+      
+      <guid>https://sailor-agents.github.io/blog/workflow/</guid>
       <description>&lt;a href=&#34;https://github.com/Sailor-Agents/Terminal-Agents&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;We propose &lt;strong&gt;Reptile&lt;/strong&gt;, a terminal agent that operates under an extended &lt;strong&gt;REPL (Read-Execute-Print-Learn)&lt;/strong&gt; protocol, where human feedback is seamlessly integrated into the agent&amp;rsquo;s execution loop.&lt;/p&gt;
 &lt;p&gt;Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely on code evaluation, our REPL protocol emphasizes the iterative cycle of human-agent collaboration, transforming the terminal from a passive command executor into an interactive learning environment.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://hackmd.io/_uploads/SkGiD2BWWl.png&#34; alt=&#34;image&#34;  /&gt;
-&lt;/p&gt;
+&lt;figure style=&#34;text-align: center; margin: 1rem 0;&#34;&gt;
+  &lt;img src=&#34;https://hackmd.io/_uploads/SkGiD2BWWl.png&#34; style=&#34;width: 60%; display: block; margin: 0 auto;&#34;&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;insights&#34;&gt;Insights&lt;/h2&gt;
 &lt;!-- **Topic**: Terminal is universal enough but Terminal-Agent is super challenging, which is a promising testbed to push the limits of agent research.  --&gt;
 &lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;: Build the universal action space for the LLM, reserving specialized workflows only for high-risk operations.&lt;/p&gt;</description>
@@ -30,10 +43,10 @@
     
     <item>
       <title>Terminal: LLM’s Last Tool</title>
-      <link>https://sailor-agents.github.io/blog/tty-use-tool/</link>
+      <link>https://sailor-agents.github.io/blog/tool/</link>
       <pubDate>Wed, 15 Oct 2025 12:00:00 +0800</pubDate>
       
-      <guid>https://sailor-agents.github.io/blog/tty-use-tool/</guid>
+      <guid>https://sailor-agents.github.io/blog/tool/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sail-sg/tty-use&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;a href=&#34;https://x.com/mavenlin/status/1977758827366817929&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;TWITTER&lt;/a&gt;
 &lt;a href=&#34;https://tinyurl.com/vrwcmpks%20&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;NOTION-Version&lt;/a&gt;&lt;/p&gt;
