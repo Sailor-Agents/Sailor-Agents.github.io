@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Terminal-Agent</title>
-    <link>http://terminal-agent.github.io/blog/</link>
+    <link>https://sailor-agents.github.io/blog/</link>
     <description>Recent content in Blog on Terminal-Agent</description>
     <image>
-      <url>http://terminal-agent.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://terminal-agent.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://sailor-agents.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sailor-agents.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 12:00:00 +0800</lastBuildDate><atom:link href="http://terminal-agent.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 12:00:00 +0800</lastBuildDate><atom:link href="https://sailor-agents.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reptile: Terminal-Agent with Human-in-the-loop Learning</title>
-      <link>http://terminal-agent.github.io/blog/reptile-workflow/</link>
+      <link>https://sailor-agents.github.io/blog/reptile-workflow/</link>
       <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
-      <guid>http://terminal-agent.github.io/blog/reptile-workflow/</guid>
+      <guid>https://sailor-agents.github.io/blog/reptile-workflow/</guid>
       <description>&lt;a href=&#34;https://github.com/Sailor-Agents/Terminal-Agents&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;We propose &lt;strong&gt;Reptile&lt;/strong&gt;, a terminal agent that operates under an extended &lt;strong&gt;REPL (Read-Execute-Print-Learn)&lt;/strong&gt; protocol, where human feedback is seamlessly integrated into the agent&amp;rsquo;s execution loop.&lt;/p&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>Terminal: LLM’s Last Tool</title>
-      <link>http://terminal-agent.github.io/blog/tty-use-tool/</link>
+      <link>https://sailor-agents.github.io/blog/tty-use-tool/</link>
       <pubDate>Wed, 15 Oct 2025 12:00:00 +0800</pubDate>
       
-      <guid>http://terminal-agent.github.io/blog/tty-use-tool/</guid>
+      <guid>https://sailor-agents.github.io/blog/tty-use-tool/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/sail-sg/tty-use&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
 &lt;a href=&#34;https://x.com/mavenlin/status/1977758827366817929&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;TWITTER&lt;/a&gt;
 &lt;a href=&#34;https://tinyurl.com/vrwcmpks%20&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;NOTION-Version&lt;/a&gt;&lt;/p&gt;
