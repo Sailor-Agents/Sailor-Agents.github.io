@@ -38,9 +38,7 @@
 &lt;figure style=&#34;text-align: center; margin: 1rem 0;&#34;&gt;
   &lt;img src=&#34;https://hackmd.io/_uploads/SkGiD2BWWl.png&#34; style=&#34;width: 60%; display: block; margin: 0 auto;&#34;&gt;
 &lt;/figure&gt;
-&lt;h2 id=&#34;insights&#34;&gt;Insights&lt;/h2&gt;
-&lt;!-- **Topic**: Terminal is universal enough but Terminal-Agent is super challenging, which is a promising testbed to push the limits of agent research.  --&gt;
-&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;: Build the universal action space for the LLM, reserving specialized workflows only for high-risk operations.&lt;/p&gt;</description>
+&lt;p&gt;This blog focus on &lt;strong&gt;workflow&lt;/strong&gt; and &lt;strong&gt;evaluation&lt;/strong&gt;. We detail the &lt;strong&gt;on-policy annotation&lt;/strong&gt; and &lt;strong&gt;SFT training&lt;/strong&gt; in &lt;a href=&#34;https://reptile.github.io/blog/annotation/&#34;&gt;https://reptile.github.io/blog/annotation/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
