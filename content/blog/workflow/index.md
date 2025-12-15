@@ -51,7 +51,7 @@ Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely
 </figure>
 
 
-This blog focus on **workflow** and **evaluation**. We detail the **on-policy annotation** and **SFT training** in https://reptile.github.io/blog/annotation/
+This blog focus on **workflow** and **evaluation**. We detail the **on-policy annotation** and **SFT training** in https://terminal-agent.github.io/blog/annotation/
 
 
 ## Insights
