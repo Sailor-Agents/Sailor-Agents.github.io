@@ -37,6 +37,7 @@ show_word_count: true
 #   blur: false
 ---
 {{< button href="https://github.com/terminal-agent/reptile" label="GITHUB" external=true >}}
+{{< button href="https://terminal-agent.github.io/reptile/" label="DOC" external=true >}}
 
 
 ## Introduction
