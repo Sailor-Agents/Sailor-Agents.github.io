@@ -121,7 +121,6 @@ For technique details in tty-use, please see our post at https://terminal-agent.
 
 ## How REPL enables Human-in-the-loop Learning?
 
-### Data Annotation Tool for SFT Data Collection
 
 Human-in-the-loop isn't just for runtime—it's also central to our data collection strategy for further model training.
 
@@ -143,15 +142,7 @@ Please refer to https://reptile.github.io/blog/annotation/ for more annotation d
 </figure>
 
 
-
-1. **Agent attempts task**: Generate trajectory with current policy
-2. **Human reviews each step**: Approve, correct, or provide better alternative
-3. **Trajectory labeling**: Mark successful trajectories for SFT
-4. **Failure analysis**: Annotate why certain actions failed
-5. **Dataset curation**: Filter and balance collected demonstrations
-
-
-Our data source
+Our data pipeline source
 
 - All branches are automatically logged with a checkpointing hook.
 - User approval / disapproval means something.
@@ -160,7 +151,9 @@ Our data source
 - Feedback & edit are natural to user.
 - The more you use, the more data you generate to make the model more like you.
 
-Usage of the data
+
+
+### Usage of the data
 
 - Supervised finetuning.
 - Preference optimization.
