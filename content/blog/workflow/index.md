@@ -61,6 +61,7 @@ Compared with other CLI agents (e.g., Claude Code and Mini SWE-Agent), Reptile s
 
 - **Human-in-the-Loop Learning**: Users can inspect every step and provide prompt feedback, i.e., give feedback under the USER role or edit the LLM generation under the ASSISTANT role.
 
+> As noted in the [post](https://mini-swe-agent.com/latest/faq/#why-no-shell-session) from the Mini SWE-Agent team, implementing stateful shell sessions presents significant challenges. We address this challenge by detecting the non-canonical mode of TTY.
 
 This blog focus on **workflow** and **benchmarking**.
 
