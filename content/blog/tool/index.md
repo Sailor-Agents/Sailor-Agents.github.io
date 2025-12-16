@@ -38,7 +38,7 @@ show_word_count: true
 ---
 {{< button href="https://github.com/sail-sg/tty-use" label="GITHUB" external=true >}}
 {{< button href="https://x.com/mavenlin/status/1977758827366817929" label="TWITTER" external=true >}}
-{{< button href="https://tinyurl.com/vrwcmpks " label="NOTION-Version" external=true >}}
+{{< button href="https://tinyurl.com/vrwcmpks" label="NOTION-Version" external=true >}}
 
 
 

@@ -38,7 +38,7 @@ show_word_count: true
 ---
 {{< button href="https://github.com/terminal-agent/reptile" label="GITHUB" external=true >}}
 {{< button href="https://github.com/terminal-agent/AnnotationGuidelines" label="GUIDELINE" external=true >}}
-{{< button href="https://www.notion.so/On-Policy-SFT-Annotation-How-Minimal-Human-Edits-Unlock-Massive-Gains-in-LLM-Agents-2b80ba07baa880d6ba7fca50816d33f2?source=copy_link" label="NOTION-Version" external=true >}}
+{{< button href="https://www.notion.so/On-Policy-SFT-Annotation-How-Minimal-Human-Edits-Unlock-Massive-Gains-in-LLM-Agents-2b80ba07baa880d6ba7fca50816d33f2" label="NOTION-Version" external=true >}}
 
 
 

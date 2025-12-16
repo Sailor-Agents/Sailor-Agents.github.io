@@ -41,9 +41,9 @@ show_word_count: true
 
 ## Introduction
 
-We propose **Reptile**, a terminal agent that operates under an extended **REPL (Read-Execute-Print-Learn)** protocol, where human feedback is seamlessly integrated into the agent's execution loop.
+We propose **Reptile**, a terminal agent that operates under an extended **REPL (Read-Execute-Print-Learn Loop)** protocol, where human feedback is seamlessly integrated into the agent's execution loop.
 
-Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely on code evaluation, our REPL protocol emphasizes the iterative cycle of human-agent collaboration, transforming the terminal from a passive command executor into an interactive learning environment.
+Unlike traditional REPL (Read-Execute-Print Loop) environments that focus solely on code evaluation, our REPL protocol emphasizes the iterative cycle of human-agent collaboration, transforming the terminal from a passive command executor into an interactive learning environment.
 
 
 <figure style="text-align: center; margin: 1rem 0;">
@@ -51,10 +51,19 @@ Unlike traditional REPL (Read-Execute-Print-Loop) environments that focus solely
 </figure>
 
 
-This blog focus on **workflow** and **evaluation**. We detail the **on-policy annotation** and **SFT training** in https://terminal-agent.github.io/blog/annotation/
+This blog focus on **workflow** and **evaluation**. We detail the **on-policy annotation** and **SFT training** in https://terminal-agent.github.io/blog/annotation/.
+
+## What Makes Reptile Workflow Special?
+
+Compared with other CLI agents (e.g., Claude Code and Mini SWE-Agent), Reptile stands out because of:
+
+- **Terminal-only beyond Bash-only**: Simple and stateful execution, which is more efficient than bash-only (you don't need to specify the environment in every command). It doesn't require the complicated MCP protocol—just a naive bash tool under the REPL protocol.
+  > See [TTY-use Post](https://terminal-agent.github.io/blog/tool/) for more details on making terminal backend work.
+- **Human-in-the-Loop Learning**: Users can inspect every step and provide prompt feedback, i.e., give feedback under the USER role or edit the LLM generation under the ASSISTANT role.
+  > See [On-policy Annotation Post](https://terminal-agent.github.io/blog/annotation/) for more details on annotation and naive SFT training.
 
 
-## Insights
+## Our Insights in Building General Agents
 
 
 **Workflow**: Build the universal action space for the LLM, reserving specialized workflows only for high-risk operations.
@@ -218,3 +227,7 @@ If you find Reptile useful in your research or applications, please cite:
   note={Blog}
 }
 ```
+
+> **Fun fact**: The name "Reptile" has a dual meaning: it refers to the REPL (Read-Eval-Print-Learning Loop) workflow in terminal interactions, and also pays homage to OpenAI's Reptile meta-learning algorithm (2018), which pioneered few-shot adaptation. Like its namesake, our Reptile learns to quickly adapt to new tasks—but through human-in-the-loop collaboration rather than pure algorithmic optimization. Both share the same philosophy: learning efficiently from minimal examples to master diverse tasks.
+>
+> *Reference: [On First-Order Meta-Learning Algorithms](https://arxiv.org/abs/1803.02999)*
