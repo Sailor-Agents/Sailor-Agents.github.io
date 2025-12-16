@@ -31,7 +31,8 @@
       <pubDate>Mon, 15 Dec 2025 12:00:00 +0800</pubDate>
       
       <guid>https://terminal-agent.github.io/blog/workflow/</guid>
-      <description>&lt;a href=&#34;https://github.com/terminal-agent/reptile&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/terminal-agent/reptile&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;GITHUB&lt;/a&gt;
+&lt;a href=&#34;https://terminal-agent.github.io/reptile/&#34; class=&#34;btn external&#34; target=&#34;_blank&#34;&gt;DOC&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;We propose &lt;strong&gt;Reptile&lt;/strong&gt;, a terminal agent that operates under an extended &lt;strong&gt;REPL (Read-Execute-Print-Learn Loop)&lt;/strong&gt; protocol, where human feedback is seamlessly integrated into the agent&amp;rsquo;s execution loop.&lt;/p&gt;
 &lt;p&gt;Unlike traditional REPL (Read-Execute-Print Loop) environments that focus solely on code evaluation, our REPL protocol emphasizes the iterative cycle of human-agent collaboration, transforming the terminal from a passive command executor into an interactive learning environment.&lt;/p&gt;
