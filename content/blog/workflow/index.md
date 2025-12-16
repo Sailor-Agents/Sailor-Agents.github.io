@@ -63,6 +63,53 @@ Compared with other CLI agents (e.g., Claude Code and Mini SWE-Agent), Reptile s
 
 > As noted in the [post](https://mini-swe-agent.com/latest/faq/#why-no-shell-session) from the Mini SWE-Agent team, implementing stateful shell sessions presents significant challenges. We address this challenge by detecting the non-canonical mode of TTY.
 
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://terminal-agent.github.io/reptile/get_started/quickstart.html"><strong>Terminal UI</strong></a> (<code>autopilot run</code>)
+</td>
+<td>
+<a href="https://terminal-agent.github.io/reptile/basic_usage/user_interface.html"><strong>Web UI</strong></a> (<code>autopilot gradio</code>)
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+  ![tui-case](cases/tui-file-inspection.gif)
+
+</td>
+<td>
+
+  ![web-case](cases/webui-stock-case-edit.gif)
+
+</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://terminal-agent.github.io/reptile/basic_usage/evaluation.html"><strong>Batch Evaluation</strong></a>
+  </td>
+  <td>
+    <a href="https://github.com/terminal-agent/reptile/blob/main/tools/webTrajViewer.html"><strong>Trajectory Viewer</strong></a>
+  </td>
+<tr>
+<tr>
+
+<td>
+
+![batch-eval](cases/batch-eval-tbench.gif)
+
+</td>
+
+<td>
+
+![data-viewer](cases/data-viewer.gif)
+
+</td>
+</tr>
+</table>
+
+
 This blog focus on **workflow** and **benchmarking**.
 
 > See [TTY-use blog](https://terminal-agent.github.io/blog/tool/) for technical details on how to make terminal backend work.
